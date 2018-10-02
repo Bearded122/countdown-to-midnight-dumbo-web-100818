@@ -1,6 +1,6 @@
 #write your code here
 
-def countdown
+def countdown(sec)
   for sec in 0..10
     puts "#{sec} SECOND(S)!"
   end
