@@ -3,9 +3,8 @@
 def countdown
   for sec in 0..10
     puts "#{sec} SECOND(S)!"
-    break if sec == 0
-    puts "HAPPY NEW YEAR!"
   end
+  puts "HAPPY NEW YEAR!"
 end
 
 
