@@ -5,6 +5,8 @@ def countdown
   while n > 11
     puts "#{n} SECOND(S)!"
     n -= 1
+    break if n == 0
+    puts
   end
 end
 
